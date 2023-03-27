@@ -26,5 +26,6 @@ if (o % 2 == 0)
 putchar(str[o]);
 }
 }
+putchar('\n');
 }
 

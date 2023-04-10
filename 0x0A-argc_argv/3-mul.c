@@ -7,7 +7,7 @@
  * Return: the int coverted from the string
  */
 
-int_atoi(char *s)
+int _atoi(char *s)
 
 {
 
@@ -22,7 +22,7 @@ int_atoi(char *s)
 
 	while (s[len] != '\0')
 
-		len++
+		len++;
 
 			while (i < len && f == 0)
 
